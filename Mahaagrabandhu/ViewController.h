@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIWebViewDelegate> {
+}
 
+@property (weak, nonatomic) IBOutlet UIWebView *contentWebView;
+
+- (IBAction)forwardButtonTapped:(id)sender;
+- (IBAction)backButtonTapped:(id)sender;
+- (IBAction)stopButtonTapped:(id)sender;
+- (IBAction)reloadButtonTapped:(id)sender;
 
 @end
 

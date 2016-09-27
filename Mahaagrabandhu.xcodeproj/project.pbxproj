@@ -15,6 +15,7 @@
 		D48A7A8B1D9AB77A00DC3AD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48A7A891D9AB77A00DC3AD1 /* LaunchScreen.storyboard */; };
 		D48A7A961D9AB77A00DC3AD1 /* MahaagrabandhuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D48A7A951D9AB77A00DC3AD1 /* MahaagrabandhuTests.m */; };
 		D48A7AA11D9AB77A00DC3AD1 /* MahaagrabandhuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D48A7AA01D9AB77A00DC3AD1 /* MahaagrabandhuUITests.m */; };
+		D48A7AAF1D9AC81100DC3AD1 /* ios_splash.png in Resources */ = {isa = PBXBuildFile; fileRef = D48A7AAE1D9AC81100DC3AD1 /* ios_splash.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D48A7A9C1D9AB77A00DC3AD1 /* MahaagrabandhuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MahaagrabandhuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D48A7AA01D9AB77A00DC3AD1 /* MahaagrabandhuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MahaagrabandhuUITests.m; sourceTree = "<group>"; };
 		D48A7AA21D9AB77A00DC3AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48A7AAE1D9AC81100DC3AD1 /* ios_splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios_splash.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				D48A7A841D9AB77A00DC3AD1 /* Main.storyboard */,
 				D48A7A871D9AB77A00DC3AD1 /* Assets.xcassets */,
 				D48A7A891D9AB77A00DC3AD1 /* LaunchScreen.storyboard */,
+				D48A7AAE1D9AC81100DC3AD1 /* ios_splash.png */,
 				D48A7A8C1D9AB77A00DC3AD1 /* Info.plist */,
 				D48A7A7B1D9AB77A00DC3AD1 /* Supporting Files */,
 			);
@@ -245,6 +248,7 @@
 			files = (
 				D48A7A8B1D9AB77A00DC3AD1 /* LaunchScreen.storyboard in Resources */,
 				D48A7A881D9AB77A00DC3AD1 /* Assets.xcassets in Resources */,
+				D48A7AAF1D9AC81100DC3AD1 /* ios_splash.png in Resources */,
 				D48A7A861D9AB77A00DC3AD1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,10 +417,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Swapnil Harkanth (CZA6DXR72T)";
 				INFOPLIST_FILE = Mahaagrabandhu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alpha.stardeep.Mahaagrabandhu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a6f1571a-c0e9-4c12-bff7-444cce8dafa8";
 			};
 			name = Debug;
 		};
@@ -424,10 +431,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Swapnil Harkanth (CZA6DXR72T)";
 				INFOPLIST_FILE = Mahaagrabandhu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alpha.stardeep.Mahaagrabandhu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a6f1571a-c0e9-4c12-bff7-444cce8dafa8";
 			};
 			name = Release;
 		};
